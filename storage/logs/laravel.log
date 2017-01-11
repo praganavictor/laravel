@@ -1,0 +1,10 @@
+[2017-01-10 02:28:21] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "start" is not defined.
+
+Did you mean this?
+    queue:restart in C:\xampp\htdocs\estoque\vendor\symfony\console\Application.php:536
+Stack trace:
+#0 C:\xampp\htdocs\estoque\vendor\symfony\console\Application.php(184): Symfony\Component\Console\Application->find('start')
+#1 C:\xampp\htdocs\estoque\vendor\symfony\console\Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\estoque\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(121): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xampp\htdocs\estoque\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
